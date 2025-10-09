@@ -66,9 +66,9 @@ Use the `test.py` script to deblur images. You can process a single image, a dir
 
 **1. Batch Processing from CSV**
 
-Process images specified in a CSV file. This is useful for reproducing paper results.
+Process images specified in a CSV file. This is useful for running batch jobs with predefined parameters.
 ```bash
-python test.py --csv_path ./Real-World Rotational_Motion_Blur_Datasets/test/parameters_with_noise_5.csv --output ./output/
+python test.py --csv_path ./path/to/yourcsv.csv --output ./output/
 ```
 
 **Command Line Arguments:**
@@ -86,9 +86,12 @@ Rotational-Deblur/
 ├── models/                 # Neural network architecture
 ├── utils/                  # Utility functions (e.g., coordinate transforms)
 ├── core/                   # Core training and evaluation logic
-├── data/                   # Dataset loading and preprocessing
+├── evaluation/             # Logic of evaluate the output
+├── data_handling/          # Dataset loading and preprocessing
+├── pre-trained-model/      # Directory for all the pre-trained model
 ├── test.py                 # Inference script for testing models
-├── train.py                # Main training script
+├── main.py                 # Main training script
+├── check_parameter.py      # Check number of parameter script
 ├── config.py               # Central configuration file
 ├── requirements.txt        # Project dependencies
 └── README.md               # This file
@@ -110,4 +113,4 @@ If you find this work useful for your research, please consider citing our paper
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+This project is licensed under the MIT License. See the LICENSE file

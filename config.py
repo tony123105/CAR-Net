@@ -15,11 +15,11 @@ LOG_INTERVAL = 1
 BATCH_SIZE = 4
 
 # Data Settings
-DATA_DIR = "data"  # Base directory for all data
-PARAMS_FILE = f"{DATA_DIR}/Real-World Rotational_Motion_Blur_Datasets/train/parameters_with_noise_5.csv"
+DATA_DIR = "Real-World Rotational_Motion_Blur_Datasets"  # Base directory for all data
+PARAMS_FILE = f"{DATA_DIR}/train/parameters_with_noise_5.csv"
 
 # Test Data Settings
-TEST_PARAMS_FILE = f"{DATA_DIR}/Real-World Rotational_Motion_Blur_Datasets/test/parameters_with_noise_5.csv"
+TEST_PARAMS_FILE = f"{DATA_DIR}/test/parameters_with_noise_5.csv"
 
 # Model Hyperparameters
 MODEL_NAME = "car-net" 

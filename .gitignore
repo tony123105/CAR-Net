@@ -181,4 +181,5 @@ cython_debug/
 .cursorindexingignore
 
 # Dataset files
-data
+/Real-World Rotational_Motion_Blur_Datasets
+/Simple_Pattern_Rotational_Motion_Blur_Datasets
