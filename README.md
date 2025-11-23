@@ -25,7 +25,7 @@ Our framework utilizes a novel non-blind iterative model for deblurring in the p
 
 1.  **Clone the repository:**
     ```bash
-    git clone XXXX
+    git clone https://github.com/tony123105/CAR-Net.git
     cd CAR-Net
     ```
 
@@ -101,12 +101,11 @@ Rotational-Deblur/
 
 If you find this work useful for your research, please consider citing our paper.
 
-*Note: This paper is currently under review for AAIML 2026. The BibTeX entry will be updated upon acceptance.*
 ```bibtex
-@inproceedings{Author2026carnet,
+@inproceedings{Lai2026carnet,
   title     = {CAR-Net: A Cascade Refinement Network for Rotational Motion Deblurring under Angle Information Uncertainty},
-  author    = {Author1,Author 2},
-  booktitle = {Submitted to International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML)},
+  author    = {Lai, Ka Chung and Cetinkaya, Ahmet},
+  booktitle = {International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML)},
   year      = {2026}
 }
 ```
